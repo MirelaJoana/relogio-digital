@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(90deg, #8e1d9e, #b764c5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.relogio {
+  display: flex;
+  box-shadow:  20px 20px 60px #252525, 0px 0px 0px;
+  padding: 4rem;
+  border-radius: 15px;
+}
+
+.relogio_particao {
+  height: 8em;
+  width: 8em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #230133;
+  margin: 10px;
+  padding: 2em 1em;
+  line-height: 3em;
+  border-radius: 15px;
+}
+
+.relogio_valor{
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.relogio_texto {
+  font-size: 12px;
+}
